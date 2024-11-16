@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./App.css";
 import ConferenceEvent from "./ConferenceEvent";
 import AboutUs from "./AboutUs";
@@ -29,7 +29,7 @@ function App() {
         </div>
       </header>
 
-      <div className={`event-list-container ${showVenue ? 'visible' : ''}`}>
+      <div className={`event-list-container ${showVenue ? "visible" : ""}`}>
         <ConferenceEvent />
       </div>
     </>
